@@ -183,4 +183,6 @@ export const ROUTES = {
   NIGHT_OCEAN: "/night-ocean",
   IMAGE: "/image",
   GROUND: "/ground",
+  PHYSICAL_ENGINE: "/physical-engine",
+  MOVE_CAR: "/move-car",
 };

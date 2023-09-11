@@ -14,6 +14,8 @@ import NightOcean from "../NightOcean";
 
 import Ground from "../Ground";
 import Image2 from "../Image";
+import PhysicsEngine from "../PhysicsEngine";
+import MoveCar from "../MoveCar";
 
 export const GOLDENRATIO = 1.61803398875;
 
@@ -28,6 +30,8 @@ const App = () => {
       <Route path={ROUTES.NIGHT_OCEAN} element={<NightOcean />} />
       <Route path={ROUTES.IMAGE} element={<Image2 />} />
       <Route path={ROUTES.GROUND} element={<Ground />} />
+      <Route path={ROUTES.PHYSICAL_ENGINE} element={<PhysicsEngine />} />
+      <Route path={ROUTES.MOVE_CAR} element={<MoveCar />} />
     </Routes>
   );
 };
